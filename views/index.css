@@ -8,9 +8,8 @@ body {
 }
 .container {
   background-color: hsl(0, 0%, 100%);
-  min-width: auto;
   padding: 20px;
-  min-height: auto;
+  max-width: 250px;
   border-radius: 15px;
   box-shadow: 0 25px 40px rgba(0, 0, 0, 0.1);
   align-items: center;
@@ -28,6 +27,13 @@ body {
 }
 
 img {
-  width: 300px;
-  border-radius: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+.paragraph{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
 }
